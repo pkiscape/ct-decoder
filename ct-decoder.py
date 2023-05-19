@@ -5,6 +5,18 @@ import json
 import base64
 from cryptography import x509
 
+'''
+=========================================
+
+CT Decoder 
+(Certificate Transparency Decoder)
+=========================================
+
+
+@version    1 
+@author     pkiscape.com
+@link       https://github.com/pkiscape
+'''
 
 def logparse():
 
