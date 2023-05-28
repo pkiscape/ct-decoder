@@ -5,6 +5,7 @@ This Python script will decode the Precertificate Signed Certificate Timestamps 
 
 **It is important to download the latest version of known CT loggers that are compliant with Chrome's CT policy:** 
 https://www.gstatic.com/ct/log_list/v3/all_logs_list.json
+Please ensure that you are using cryptography version 3.1 or greater
 
 **Place the file "all_logs_list.json" in the same directory as ct-decoder.py**
 
