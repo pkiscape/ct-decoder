@@ -13,7 +13,7 @@ Please ensure that you are using cryptography version 3.1 or greater
 
 Referenced [here](https://github.com/google/certificate-transparency-community-site/blob/master/docs/google/known-logs.md)
 
-    usage: ct-decoder.py [-h] [-c CERTIFICATE]
+    usage: ctdecoder.py [-h] [-c CERTIFICATE]
 
     A python-based Precertificate Signed Certificate Timestamp decoder and lookup tool
 
@@ -26,9 +26,9 @@ Referenced [here](https://github.com/google/certificate-transparency-community-s
                       
 Examples:
  
-    ct-decoder.py -c certificate.pem
+    ctdecoder.py -c certificate.pem
 or
  
-    ct-decoder.py --certificate certificate.pem
+    ctdecoder.py --certificate certificate.pem
                                                                
 ------
