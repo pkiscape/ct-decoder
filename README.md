@@ -1,4 +1,4 @@
-# ct-decoder
+# ctdecoder
 A Python-based Precertificate Signed Certificate Timestamp decoder and lookup tool
 
 This Python script will decode the Precertificate Signed Certificate Timestamps (SCT) of a given x509 certificate. An SCT is a proof that a certificate has been logged in certificate transparency (CT) which means that its issuance was public. More information about this is noted [here](https://github.com/google/certificate-transparency/blob/2588562fd306a447958471b6f06c1069619c1641/docs/SCTValidation.md).
